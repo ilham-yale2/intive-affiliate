@@ -1,0 +1,15 @@
+@media only screen and (max-width: 767px){
+	.banner{
+		padding-left: 0px;
+		text-align: center;
+		padding-top: 150px;
+	}
+	.banner .text-header{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.card-commision{
+		max-width: 100%;
+	}
+}
