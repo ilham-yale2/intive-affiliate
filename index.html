@@ -105,8 +105,8 @@
 					resign dulu yaak! <br> Masih ada kesempatan buat bisa achieve lebih kok! Simple aja caranya --></p>
 			</div>
 		</div>
-		<div class="w-100 pt-5 px-4 px-md-0" id="steps">
-			<div class="container pt-5 mt-0 mt-md-4">
+		<div class="w-100 py-5 px-4 px-md-0" id="steps">
+			<div class="container py-5 mt-0 mt-md-4">
 				<h3 class="text-white">3 Langkah ini cukup banget <br>
 					buat kamu bisa punya cuan tambahan. </h3>
 				<div class="row  align-items-center">
@@ -197,7 +197,7 @@
 			</div>
 		</div>
 		<div id="affiliate-partner" class="py-5  px-5 px-md-0">
-			<div class="container py-0 py-md-5 mt-0 mt-md-5 text-white">
+			<div class="container py-0 py-md-5 my-0 my-md-5 text-white">
 				<div class="row mx-0">
 					<div class="col-md-5 col-12 row">
 						<h3>Affiliate Partner <br>
@@ -238,6 +238,81 @@
 				</div>
 			</div>
 		</div>
+		<div id="footer" class="bg-white pb-4">
+			<div class="px-2 pb-5">
+				<div class="slider-client">
+					<div class="p-2">
+						<img src="assets/image/client logo/1200px-Avian_Brands_logo.svg-removebg-preview.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/1200px-Finna_logo.svg-removebg-preview.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/1280px-Grab_Logo.svg.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/6642283_43f08bd2-7342-4e76-989b-7b65752da48d_1280_1280-removebg-preview.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/Cadbury-Logo.wine.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/cadbury.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/ciptra.jpg" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/download (1).jpg" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/download (1).png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/download (2).png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/download-removebg-preview (1).png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/FHCI_hires.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/Logo bangkalan.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/logo pjb.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/Logo SKA 15 cm (1).png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/logo-agros.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/logo-provinsi-jawa-timur-removebg-preview.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/logo-unair-removebg-preview.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/logo_bakrieland.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/Logo_Famos-04.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/Logo_PARAS GROUP.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/tanrise-01-removebg-preview.png" alt="">
+					</div>
+					<div class="p-2">
+						<img src="assets/image/client logo/Ubiku-removebg-preview.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -250,6 +325,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="assets/js/demo.js"></script>
 	<script src="assets/js/pixi.min.js"></script>
 	<script src="assets/js/TweenMax.min.js"></script>
@@ -289,6 +365,16 @@
 
 
 		});
+
+		$('.slider-client').slick({
+			infinite: true,
+			speed: 300,
+			slidesToShow: 6,
+			autoplay: true,
+			autoplaySpeed: 2000,
+			prevArrow:false,
+			nextArrow:false,
+		})
 
 	</script>
 </body>
