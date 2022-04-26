@@ -7,15 +7,6 @@
 	.banner .text-header{
 		font-size: 40px;
 	}
-
-	@keyframes animate {
-		0% {
-			bottom: -100px;
-		  }
-		  100% {
-			bottom: -10px;
-		  }
-	}
 }
 @media only screen and (max-width: 500px){
 	.card-commision{
