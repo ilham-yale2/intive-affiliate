@@ -98,7 +98,17 @@
 }
 
 
-.transition-ease{
-	transition: .5s ease;
-}
   
+canvas{
+	left: 54% ;
+}
+
+#btn-sign-up{
+	transition: 1s linear;
+}
+
+.button-sticky{
+	position: fixed;
+	top: -10px;
+	z-index: 101;
+}

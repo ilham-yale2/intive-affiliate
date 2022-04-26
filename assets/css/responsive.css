@@ -12,4 +12,28 @@
 	.card-commision{
 		max-width: 100%;
 	}
+	.slider-item{
+		min-height: 50vh;
+		padding: 0px 30px;
+	}
+
+	.banner{
+		min-height: 80vh;
+	}
+
+	.partner-list .partner-logo{
+		width: 70px;
+		height: 70px;
+	}
+
+	.partner-list h1{
+		font-size: 1.5rem;
+	}
+
+	.partner-list h5{
+		font-size: 1rem;
+	}
+	canvas{
+		left: 40%!important;
+	}
 }

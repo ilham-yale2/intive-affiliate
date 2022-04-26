@@ -64,7 +64,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="quote">
+			<div id="quote" class="px-4 px-md-0">
 				<h5 class="text-white lato w-100">Current Condition</h5>
 				<div id="sliderQuote" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
@@ -103,7 +103,7 @@
 					resign dulu yaak! <br> Masih ada kesempatan buat bisa achieve lebih kok! Simple aja caranya --></p>
 			</div>
 		</div>
-		<div class="w-100 py-5" id="steps">
+		<div class="w-100 py-5 px-4 px-md-0" id="steps">
 			<div class="container">
 				<h3 class="text-white">3 Langkah ini cukup banget <br>
 					buat kamu bisa punya cuan tambahan. </h3>
@@ -157,7 +157,7 @@
 					Schema Commision Based
 				</h3>
 				<p>Jika kamu berhasil ngrekomendasiin dan ngegoalin project, <br> maka ini perhitungan komisinya.</p>
-				<div class="row list-commision mt-5 justify-content-center">
+				<div class="row mx-0 list-commision mt-5 justify-content-center">
 					<div class="card-commision col-md-4 mb-5 mb-md-0 col-12 px-0 px-md-4">
 						<div class="w-100 border border-success py-5 text-center px-3 px-md-0 rounded-md h-100">
 							<h1 class="text-success mb-3">5%</h1>
@@ -204,8 +204,8 @@
 							Yuk, sekarang giliran kamu ambil peluang ini!
 						</p>
 					</div>
-					<div class="col-md-7 col-12">
-						<div class="px-2 px-md-5 d-flex align-items-center">
+					<div class="col-md-7 col-12 p-0">
+						<div class="px-2 px-md-5 d-flex align-items-center partner-list">
 							<div class="partner-logo">
 
 							</div>
@@ -214,7 +214,7 @@
 								<h1 class="mt-2">35%</h1>
 							</div>
 						</div>
-						<div class="border-bottom border-success border-top py-4 px-2 px-md-5 d-flex align-items-center my-4">
+						<div class="border-bottom border-success border-top py-4 px-2 px-md-5 d-flex align-items-center partner-list my-4">
 							<div class="partner-logo">
 
 							</div>
@@ -223,7 +223,7 @@
 								<h1 class="mt-2">50%</h1>
 							</div>
 						</div>
-						<div class="pb-4 px-2 px-md-5 d-flex align-items-center">
+						<div class="pb-4 px-2 px-md-5 d-flex align-items-center partner-list">
 							<div class="partner-logo">
 
 							</div>
@@ -273,11 +273,15 @@
 		});
 		$(window).scroll(function () {
 			var wScroll = $(this).scrollTop();
-			// navbar
-			if (wScroll > $('#text-header').offset().top + 100) {
-				// $('#btn-sign-up').addClass(' position-fixed')
+			console.log(wScroll)
+			if (wScroll >= $('#text-header').offset().top + 10) {
+					setTimeout(function() { 
+						$('#btn-sign-up').addClass('button-sticky')
+					}, 200);
 			} else {
-				// $('#btn-sign-up').removeClass('position-fixed')
+					setTimeout(function() { 
+					$('#btn-sign-up').removeClass('button-sticky')
+					},200)
 			}
 
 
