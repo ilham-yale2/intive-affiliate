@@ -109,6 +109,17 @@ canvas{
 
 .button-sticky{
 	position: fixed;
+	animation: animate .4s;
 	top: -10px;
 	z-index: 101;
+}
+
+
+@keyframes animate {
+	0% {
+		top: -100px;
+	  }
+	  100% {
+		top: -10px;
+	  }
 }

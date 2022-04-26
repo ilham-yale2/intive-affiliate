@@ -46,9 +46,11 @@
 						PARTNER PROGRAM
 					</h1>
 					<h5 class="text-white lato" id="text-header">We realize that as social beings we cannot live alone</h5>
-					<button class="btn btn-success rounded-pill lato px-5 py-2 mt-4 transition-ease" id="btn-sign-up">
-						Daftar Sekarang
-					</button>
+					<div id="btn-sign-up" class="">
+						<button class="btn btn-success rounded-pill lato px-5 py-2 mt-4 transition-ease">
+							Daftar Sekarang
+						</button>
+					</div>
 					<div class="row col-md-8 col-12 mx-0 mt-5 text-white p-0">
 						<div class="col-md-4 pl-2 pl-md-0">
 							Pengen dapet cuan tambahan tapi ga pengen ribet
@@ -274,7 +276,7 @@
 		$(window).scroll(function () {
 			var wScroll = $(this).scrollTop();
 			console.log(wScroll)
-			if (wScroll >= $('#text-header').offset().top + 10) {
+			if (wScroll >= $('#text-header').offset().top + 100) {
 					setTimeout(function() { 
 						$('#btn-sign-up').addClass('button-sticky')
 					}, 200);
