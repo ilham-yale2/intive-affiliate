@@ -137,6 +137,12 @@ canvas{
 	padding: 10px 20px;
 }
 
+.slider-client .slider-item{
+	max-width: 270px !important;
+	min-height: 70px!important;
+	margin: 0px 10px
+}
+
 .slider-client img{
 	height: 60px;
 	max-width: 250px;

@@ -238,77 +238,80 @@
 				</div>
 			</div>
 		</div>
-		<div id="footer" class="bg-white pb-4">
+		<div id="footer" class="bg-white pb-4 pt-2">
 			<div class="px-2 pb-5">
 				<div class="slider-client">
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/1200px-Avian_Brands_logo.svg-removebg-preview.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/1200px-Finna_logo.svg-removebg-preview.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/1280px-Grab_Logo.svg.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/6642283_43f08bd2-7342-4e76-989b-7b65752da48d_1280_1280-removebg-preview.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/Cadbury-Logo.wine.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/cadbury.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/ciptra.jpg" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/download (1).jpg" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/download (1).png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/download (2).png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/download-removebg-preview (1).png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/FHCI_hires.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/Logo bangkalan.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/logo pjb.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/Logo SKA 15 cm (1).png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/logo-agros.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/logo-provinsi-jawa-timur-removebg-preview.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/logo-unair-removebg-preview.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/logo_bakrieland.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/Logo_Famos-04.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/Logo_PARAS GROUP.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/tanrise-01-removebg-preview.png" alt="">
 					</div>
-					<div class="p-2">
+					<div class="p-2 slider-item">
 						<img src="assets/image/client logo/Ubiku-removebg-preview.png" alt="">
+					</div>
+					<div class="p-2 slider-item">
+						<img src="assets/image/client logo/logo_kamalia.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -368,12 +371,18 @@
 
 		$('.slider-client').slick({
 			infinite: true,
-			speed: 300,
-			slidesToShow: 6,
+			speed: 10000,
 			autoplay: true,
-			autoplaySpeed: 2000,
-			prevArrow:false,
-			nextArrow:false,
+			autoplaySpeed: 0,
+			centerMode: true,
+			cssEase: 'linear',
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			variableWidth: true,
+			infinite: true,
+			initialSlide: 1,
+			arrows: false,
+			buttons: false
 		})
 
 	</script>
