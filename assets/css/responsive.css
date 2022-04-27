@@ -36,4 +36,9 @@
 	canvas{
 		left: 40%!important;
 	}
+	.slider-client img{
+		height: 40px;
+		max-width: 250px;
+	}
+	
 }
