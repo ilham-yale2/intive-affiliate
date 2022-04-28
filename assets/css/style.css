@@ -147,3 +147,19 @@ canvas{
 	height: 60px;
 	max-width: 250px;
 }
+
+.footer-right li {
+	display: flex;
+	list-style: none;
+	padding: 0px 20px;
+	align-items: center;
+}
+
+.footer-right p{
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.footer-right li:nth-child(1), .footer-right li:nth-child(2){
+	border-right: 1px solid rgb(65, 65, 65);
+}

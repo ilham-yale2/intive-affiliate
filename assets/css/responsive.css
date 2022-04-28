@@ -2,7 +2,6 @@
 	.banner{
 		padding-left: 0px;
 		text-align: center;
-		padding-top: 150px;
 	}
 	.banner .text-header{
 		font-size: 40px;
@@ -16,11 +15,6 @@
 		min-height: 50vh;
 		padding: 0px 30px;
 	}
-
-	.banner{
-		min-height: 80vh;
-	}
-
 	.partner-list .partner-logo{
 		width: 70px;
 		height: 70px;
