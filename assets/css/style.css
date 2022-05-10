@@ -26,8 +26,13 @@
 
 
 .btn-success{
-	background-color: #078F5E;
+	background: linear-gradient(180deg, #078F5E 0%, #00633A 100%);;
 	border-color: #078F5E;
+}
+
+.bg-gradient-green{
+	background: linear-gradient(180deg, #078F5E 0%, #0B120F 100%);
+	backdrop-filter: blur(4px);
 }
 
 #quote{
@@ -63,7 +68,7 @@
 
 
 #steps{
-	background: url('../image/Group\ 3.png');
+	background: url('../image/background.png');
 	background-size: cover;
 	background-position: left;
 }
@@ -76,7 +81,10 @@
 .steps-icon{
 	width: 90px;
 	height: 90px;
-	background-color: #C4C4C4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #fff;
 	border-radius: 50em;
 }
 
@@ -165,4 +173,26 @@ canvas{
 
 .footer-right li:nth-child(1), .footer-right li:nth-child(2){
 	border-right: 1px solid rgb(65, 65, 65);
+}
+
+.check::before{
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 8px;
+	right: 10px;
+	background: #078F5E;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.check{
+	margin-right: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.z-3{
+	z-index: 3;
 }
